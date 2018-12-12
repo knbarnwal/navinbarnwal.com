@@ -1,0 +1,181 @@
+
+/******************
+STYLESHEET
+*******************/
+
+/* site body */
+body {
+	background-color: #000;
+	color: #999;
+	font-family: 'Open Sans', sans-serif;
+}
+button{
+	color: black;
+}
+/* page container */
+#wrapper {
+	max-width: 940px;
+	margin: 0 auto; /* will center the wrapper */
+	padding: 0 5%;
+}
+
+/* anchor links */
+a {
+	text-decoration: none;
+	color: #2ae72a;
+}
+
+/* header styles */
+header {
+	background: #34B629;
+	border-color: #599a68;
+	float: left;
+	margin: 0 0 30px 0; /* Removes whitespace from the top margin*/
+	padding: 5px 0 0 0;
+	width: 100%;
+}
+
+h1, h2 {
+	color: #fff;
+}
+
+h1 {
+	font-family: 'Changa One', sans-serif;
+	margin: 15px 0;
+	font-size: 1.75em;
+	font-weight: normal;
+	line-height: 0.8em;
+}
+
+h2 {
+	font-size: 0.75em;
+	margin: -5px 0 0;
+	font-weight: normal;
+}
+
+h3 {
+	margin: 0 0 1em 0;
+}
+
+#logo {
+	text-align: center;
+	margin: 0;
+}
+
+/* navigational styles */
+nav {
+	background: #599a68;
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+}
+
+nav a {
+	font-weight: 800;
+	padding: 15px 10px;  /* adds spacing between nav items */
+}
+
+nav a, nav a:visited {
+	color: #fff;
+}
+
+nav a.selected, nav a:hover {
+	color: #32673f;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block; /* displays nav inline but maintains width and height */
+}
+
+/* portfolio gallery */
+img {
+	max-width: 100%;
+}
+
+#gallery {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#gallery li {
+	float: left;
+	width: 45%; /* will take up half of the page*/
+	margin: 2.5%; /* a total of 10% for all sides */
+	background-color: #000000;
+	color: #000000;/* #bdc3c7 f5f5f5*/
+}
+
+#gallery li a p {
+	margin: 0;
+	padding: 5%;
+	font-size: 0.75em;
+	color: #2ae72a;
+}
+
+/* About Me Page styles */
+.profile-photo {
+	display: block;
+	max-width: 150px;
+	margin: 0 auto 30px;
+	border-radius: 100%;
+}
+
+/* Contact Page styles */
+.contact-info {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.9em;
+}
+
+.contact-info a {
+	display: block; /* gives each anchor space */
+	min-height: 20px;
+	background-repeat: no-repeat; /* only display image once */
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;
+	margin: 0 0 10px;
+}
+
+.contact-info li.github a {
+	background-image: url('../img/github-wrap.png');
+	background-size: 13px 13px;
+	margin-left: 3px;
+}
+
+.contact-info li.mail a {
+	background-image: url('../img/mail.png');
+}
+
+.contact-info li.twitter a {
+	background-image: url('../img/twitter.png');
+}
+
+/* footer styles */
+footer {
+	font-size: 0.75em;
+	text-align: center;
+	padding-top: 50px;
+	color: #999;
+	clear: both;
+}
+
+.social-icon {
+	width: 20px;
+	height: 20px;
+	margin: 0 5px;
+}
+
+
+
+
+
+
+
